@@ -1,10 +1,6 @@
-# AWS
-
-# Contents
-
----
 
 # AWS SAA-C03
+**Source:** https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/
 
 DOCUMENT REFERENCE: 
 
@@ -97,9 +93,9 @@ DOCUMENT REFERENCE:
             "Users": [
                 {
                     "Path": "/",
-                    "UserName": "aravind1",
-                    "UserId": "AIDARRMCDSNXZ43PRR6KN",
-                    "Arn": "arn:aws:iam::106036433775:user/aravind1",
+                    "UserName": "xxx",
+                    "UserId": "xxx",
+                    "Arn": "xxx",
                     "CreateDate": "2023-03-16T03:39:39+00:00",
                     "PasswordLastUsed": "2023-03-17T20:06:29+00:00"
                 }
@@ -132,25 +128,6 @@ DOCUMENT REFERENCE:
         - users and theirs service access status
         - can be used to remove permissions for those services that are not used frequently
         - users > <username> > access advisor tab
-- Quiz
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f2d5a69-72cd-465f-8e1e-a09b6371d158/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8311c810-27c3-4495-8885-b8e8dbe65ae8/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e5dde97-fb5d-45fa-87d1-e41a8af5596e/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57b60a88-d697-494a-8b13-ec79c582d031/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83a066d8-e6f8-4b6c-982b-8a4e309e1087/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/402da8c0-f0e1-45d9-ad6b-a89f025fb037/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fd52b2a-3cc4-407c-a36c-1b04e60d6ab5/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0a43ef3-8452-44f7-9c78-b30c2d9232fd/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/992d1131-64a9-4324-b845-86d40304a566/Untitled.png)
     
 
 ## EC2 Fundamentals, SAA Level and Instance Storage
@@ -327,31 +304,6 @@ DOCUMENT REFERENCE:
     - ec2 console > spot requests > request spot instance | customize
 - How to launch reserved instances/dedicated hosts/capacity reservations?
     - side pane
-- Quiz 1
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25a8bcf9-a27e-4384-b40a-ec4b4ef3b3c4/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b941e374-2299-4f7e-ac15-aa8d17f894e4/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13cc2c42-6249-4090-9b28-4b884dd647bb/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0ed203e-1b56-4401-843a-126dbc56a202/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ac9f94e-27a5-49ba-bd5d-a650da1e42aa/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da9726c8-5a70-41bb-b6c5-016d6edb6ba3/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53c45723-6e63-48d6-8f8b-e03b8b58c74c/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1824f6ad-7b58-4f8f-b7e7-528fe1f87ffa/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/080289ce-15d3-4df6-8a8a-af9a9c820888/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d18c97c0-c357-4a0a-ba82-63cbd82cb0af/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1dc1981-0093-433c-9d9b-e0c96ab7b776/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8d09a33-47cd-4d00-8d8f-81637bf05b44/Untitled.png)
     
 - Private vs Public vs Elastic IP
 - How to associate a elastic IP to an instance
@@ -397,20 +349,6 @@ DOCUMENT REFERENCE:
 - How is hibernating different from Stopping instance
     - During hibernating, the RAM is stored in EBS volume and restored back from EBS into the RAM during start
     - From an OS perspective, the instance acts as though the instance was never stopped ie it continues from the last known state before hibernation
-- Quiz 2
-    - 
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fda20674-f911-465d-b84d-9e767556b54f/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06aa0072-1cc5-433b-97d6-35c95bf0edee/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5d2061d-53b3-463c-b1d4-8f0b9a1b599c/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce133840-efa7-4879-987b-50f1e20e6020/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc20cd9a-73fb-4cf6-9552-dc7b1d09ecb4/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1593a0fb-d242-4b8f-845e-45056fcec970/Untitled.png)
-    
+
 
 ### EC2 Instance Storage
