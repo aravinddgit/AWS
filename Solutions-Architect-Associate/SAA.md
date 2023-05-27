@@ -4,7 +4,7 @@
 
 DOCUMENT REFERENCE: 
 
-[AWS Certified Solutions Architect Slides v15.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5fe14cc-5f9f-4ee3-bdc7-af1a08a80a6b/AWS_Certified_Solutions_Architect_Slides_v15.pdf)
+[AWS Certified Solutions Architect Slides v15.pdf](AWS Certified Solutions Architect Slides v15.pdf)
 
 ## Introduction
 
