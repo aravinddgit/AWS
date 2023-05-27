@@ -1,0 +1,3 @@
+The pdf file: "AWS Certified Solutions Architect Slides v15.pdf" present in the current directory does not belong to me. It was given as part of the following udemy course: "[https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/."](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/.%22)
+
+The notes present in “SAA.md” was prepared by me during my preparation for the AWS Solutions Architect Associate Exam.
